@@ -25,4 +25,13 @@ The code for this is:
    GFX_Text* text = MT_PushText("Color");
  }
  MT_PopWindow();
+
+// in your windowing loop
+MT_Draw(app, renderer);
 ```
+
+
+Here's an example of multiple windows with varying widget attributes!
+
+<img width="1232" height="699" alt="image" src="https://github.com/user-attachments/assets/66155997-7687-4d43-b64b-e125afc705d2" />
+
